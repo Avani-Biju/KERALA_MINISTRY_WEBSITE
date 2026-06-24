@@ -31,7 +31,6 @@ The website provides information about the Kerala Ministry through a Home page, 
 
 ## Project Structure
 
-```text
 KERALA_MINISTRY/
 ├── INDEX.HTML
 ├── MINISTERS.HTML
@@ -39,7 +38,7 @@ KERALA_MINISTRY/
 ├── STYLE.CSS
 ├── Images/
 └── Profiles/
-```
+
 
 ## Running the Project
 
