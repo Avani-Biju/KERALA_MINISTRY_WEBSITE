@@ -1,0 +1,362 @@
+.navbar{
+    background-color:#640e0f !important;
+    padding:10px 2px;
+}
+
+.navbar-brand h3{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-size:2rem;
+    font-weight:700;
+    margin:0;
+}
+
+.nav-link{
+    color:white !important;
+    font-weight:bold;
+}
+
+.nav-link:hover{
+    color:#f7d932e6 !important;
+}
+
+.navbar-nav{
+    margin-left:auto;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+/* Home Page */
+
+.carousel-img{
+    height:500px;
+    object-fit:cover;
+}
+
+.carousel-container{
+    position:relative;
+}
+
+.hero-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    z-index:20;
+    color:white;
+}
+
+.hero-content h1{
+    color:white;
+    text-shadow:3px 4px 9px #640e0f;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.btn-ministry{
+    background-color:#640e0f;
+    color:white;
+    font-weight:bold;
+    margin:10px;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    text-decoration:none;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.btn-ministry:hover{
+    background-color:#f7d932e6;
+    color:#640e0f;
+}
+
+.about-section{
+    text-align:center;
+    padding:50px 80px;
+}
+
+.about-section h2{
+    color:#640e0f;
+    font-family:'Times New Roman', serif;
+    font-weight:700;
+    margin-bottom:15px;
+    display:inline-block;
+    border-bottom:3px solid #640e0f;
+    padding-bottom:8px;
+}
+
+.about-section p{
+    margin-top:20px;
+    font-size:1.1rem;
+    line-height:1.8;
+    color:#333;
+}
+
+/* Footer */
+
+.footer{
+    background-color:#640e0f;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:auto;
+}
+
+/* Ministers Page */
+
+.ministry-title{
+    color:#640e0f;
+    text-align:center;
+    margin-top:40px;
+    font-family:'Times New Roman', serif;
+    font-size:2.5rem;
+    font-weight:700;
+}
+
+.minister-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    padding:40px 20px;
+}
+
+.minister-card{
+    width:280px;
+    border:2px solid #640e0f;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.minister-card:hover{
+    transform:translateY(-5px);
+}
+
+.minister-img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+}
+
+.card-title{
+    color:#640e0f;
+    font-weight:700;
+    margin-top:10px;
+}
+
+.card-text{
+    min-height:40px;
+}
+
+/* Contact Page */
+
+.contact-hero{
+    position:relative;
+    min-height:320px;
+    background:
+        linear-gradient(rgba(100,14,15,0.72), rgba(100,14,15,0.72)),
+        url("Images/kerala-government-secretariat.webp") center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+    padding:40px 20px;
+}
+
+.contact-hero-overlay{
+    max-width:700px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    z-index:20;
+    color:white;
+}
+
+.contact-hero-overlay h1{
+    color:white;
+    text-shadow:3px 4px 9px #640e0f;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.contact-kicker{
+    letter-spacing:3px;
+    text-transform:uppercase;
+    margin-bottom:10px;
+    color:#f7d932e6;
+    font-weight:700;
+}
+
+.contact-hero h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:3rem;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.contact-intro{
+    font-size:1.1rem;
+    line-height:1.7;
+    margin:0;
+}
+
+.contact-section{
+    padding:60px 20px;
+    background:linear-gradient(180deg, #fffaf2 0%, #ffffff 100%);
+}
+
+.contact-grid{
+    max-width:800px;
+    margin:0 auto;
+}
+
+.contact-card{
+    background-color:white;
+    border:2px solid rgba(100,14,15,0.12);
+    border-radius:18px;
+    padding:32px;
+    box-shadow:0 12px 35px rgba(100,14,15,0.08);
+}
+
+.contact-card h2{
+    color:#640e0f;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:700;
+    margin-bottom:18px;
+}
+
+.contact-info-block{
+    padding-top:14px;
+    border-top:1px solid rgba(100,14,15,0.12);
+    margin-top:14px;
+}
+
+.contact-info-block h3{
+    color:#640e0f;
+    font-size:1.05rem;
+    font-weight:700;
+    margin-bottom:6px;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.form-group{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+.form-group label{
+    color:#640e0f;
+    font-weight:700;
+}
+
+.form-group input,
+.form-group textarea{
+    width:100%;
+    border:1px solid rgba(100,14,15,0.2);
+    border-radius:10px;
+    padding:12px 14px;
+    font-size:1rem;
+    outline:none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+    border-color:#640e0f;
+    box-shadow:0 0 0 3px rgba(247,217,50,0.25);
+}
+
+.contact-form .btn-ministry{
+    align-self:flex-start;
+}
+
+/* Profile Pages */
+
+.profile-section{
+    padding:60px 20px;
+    background:#f8f8f8;
+}
+
+.profile-card{
+    max-width:1200px;
+    margin:auto;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+    display:flex;
+    flex-wrap:wrap;
+    overflow:hidden;
+}
+
+.profile-img{
+    width:450px;
+    height:650px;
+    object-fit:cover;
+}
+
+.profile-details{
+    flex:1;
+    padding:40px;
+}
+
+.profile-details h1{
+    color:#640e0f;
+    font-family:'Times New Roman', serif;
+    font-weight:700;
+}
+
+.profile-details h4{
+    color:#666;
+    margin-bottom:20px;
+}
+
+.profile-details h3{
+    color:#640e0f;
+    margin-top:20px;
+}
+
+.profile-details ul{
+    line-height:2;
+}
+
+/* Responsive */
+
+@media (max-width:768px){
+
+    .navbar-brand h3{
+        font-size:1.4rem;
+    }
+
+    .contact-hero h1{
+        font-size:2.3rem;
+    }
+
+    .profile-card{
+        flex-direction:column;
+    }
+
+    .profile-img{
+        width:100%;
+        height:350px;
+    }
+
+    .profile-details{
+        padding:25px;
+    }
+}
