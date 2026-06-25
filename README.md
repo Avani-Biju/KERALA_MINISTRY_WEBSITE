@@ -31,18 +31,19 @@ The website provides information about the Kerala Ministry through a Home page, 
 
 ## Project Structure
 
+```text
 KERALA_MINISTRY/
-├── index.html
-├── ministers.html
-├── contact.html
-├── style.css
+├── INDEX.HTML
+├── MINISTERS.HTML
+├── CONTACT.HTML
+├── STYLE.CSS
 ├── Images/
 └── Profiles/
-
+```
 
 ## Running the Project
 
-Open `index.html` in any web browser to view the website.
+Open `INDEX.HTML` in any web browser to view the website.
 
 ## Future Improvements
 
@@ -55,5 +56,5 @@ Open `index.html` in any web browser to view the website.
 ## Author
 
 Avani Biju
-Computer Science Engineering
-Saintgits College of Engineering
+
+Computer Science Engineering | Saintgits College of Engineering
