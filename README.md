@@ -32,17 +32,17 @@ The website provides information about the Kerala Ministry through a Home page, 
 ## Project Structure
 
 KERALA_MINISTRY/
-├── INDEX.HTML
-├── MINISTERS.HTML
-├── CONTACT.HTML
-├── STYLE.CSS
+├── index.html
+├── ministers.html
+├── contact.html
+├── style.css
 ├── Images/
 └── Profiles/
 
 
 ## Running the Project
 
-Open `INDEX.HTML` in any web browser to view the website.
+Open `index.html` in any web browser to view the website.
 
 ## Future Improvements
 
